@@ -1,0 +1,7 @@
+m = int(input())
+d_T = int(input())
+
+for q in range(0, 10000000):
+    for C in range(0, 10000000):
+        if q == m * C * d_T:
+            print(C)
